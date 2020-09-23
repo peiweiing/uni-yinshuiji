@@ -1,0 +1,7 @@
+<view class="content">
+	<image class="logo" src="/static/logo.png"></image>
+	<view class="text-area">
+    <text class="title">{{title}}</text>
+    ...<navigator url="./present">当前状态</navigator>...<navigator url="./recharge">充电</navigator>...<navigator url="./report">水质报告</navigator>...<navigator url="./advertising">广告</navigator>...
+  </view>
+</view>
