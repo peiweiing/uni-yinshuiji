@@ -96,7 +96,14 @@
 		}
 		
 		@keyframes topimg{
-			0%{background-position-x:0;}25%{background-position-x:50%;}50%{background-position-x:100%;}75%{background-position-x:50%;}100%{background-position-x:0;}
+			0%{background-position-x:0;}25%{background-position-x:50%;}
+			50%{background-position-x:100%;}75%{background-position-x:50%;}
+			100%{background-position-x:0;}
+		}
+		@keyframes image{
+			0% {transform:translate(0,5%);}
+			50% {transform:translate(0,10%);}
+			100% {transform:translate(0,5%);}
 		}
 		@keyframes stimg{
 			0% {transform:translate(0,0);}50% {transform:translate(0,-50%);}100% {transform:translate(0,0);}

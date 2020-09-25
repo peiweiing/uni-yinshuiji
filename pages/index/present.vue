@@ -80,6 +80,7 @@
 	.topimg .top{
 		height: calc(40vh);
 		padding-top: 5%;
+		animation: image 5s infinite linear;
 	}
 	.topimg .top image{
 		width: 220rpx;height: 380rpx;

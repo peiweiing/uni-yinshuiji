@@ -60,15 +60,33 @@
 				var time = the.totalSecond;
 				the.func = setInterval(()=>{
 					time--;
-					the.timestr=parseInt(time/60).toString().padStart(2, '0')+':'+(time%60).toString().padStart(2, '0');
-					console.log(time);
-					console.log("the",the.timestr);
+					the.timestr=parseInt(time/60).toString().padStart(2,'0')+':'+(time%60).toString().padStart(2,'0');
 					if(time==0){
 						console.log('时间到');
 						clearInterval(the.func);
 						the.kbool=true;
 					}
 				},1000);
+				// this.endh='00';this.endm='00';this.ends='00';
+				// var the =this;the.endh=30;
+				// the.func = setInterval(()=>{
+				// 	if(the.ends<0){
+				// 		the.ends=59;the.endm--;
+				// 	}else if(the.ends>0){
+				// 		the.ends--;
+				// 	}else if(the.endm>0){
+				// 		the.endm--;the.ends=59;
+				// 	}else if(the.endm<0){
+				// 		the.endm=59;the.endh--;
+				// 	}else if(the.endh>0){
+				// 		the.endh--;the.endm=59;
+				// 	}
+				// 	if(the.endm==0){
+				// 		console.log('时间到');
+				// 		clearInterval(this.func);clearInterval(this.fund);
+				// 		this.stoph=this.andh;this.stopm=this.andm;this.stops=this.ands;
+				// 	}
+				// },1000);
 			},
 			over(){
 				clearInterval(this.func);

@@ -30,6 +30,10 @@
 				"navigationBarTitleText": "广告"
 			}
         }
+        ,{
+            "path" : "pages/step/step",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

@@ -83,8 +83,9 @@
 						the.ends--;
 						console.log("秒数--");
 					}
-					if(the.endm==0){
-						console.log('时间到');
+					if(the.endm==0&&the.ends==0){
+						console.log('倒计时时间到');
+						this.sbool=false;this.bgcing=true;this.state='开始';
 						clearInterval(this.func);clearInterval(this.fund);
 						this.stoph=this.andh;this.stopm=this.andm;this.stops=this.ands;
 					}
@@ -98,7 +99,7 @@
 						the.andm++;
 					}
 					if(the.andm==30){
-						console.log('时间到');
+						console.log('计时时间到');
 						clearInterval(this.func);clearInterval(this.fund);
 						this.stoph=this.andh;this.stopm=this.andm;this.stops=this.ands;
 					}
