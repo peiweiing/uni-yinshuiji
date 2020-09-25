@@ -1,4 +1,5 @@
 {
-  "navigationBarTitleText": "首页",
+  "navigationBarTitleText": "共享饮水机",
+  "navigationStyle": "custom",
   "usingComponents": {}
 }
