@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "取水",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "tui-steps": "/components/thorui/tui-steps/tui-steps"
+  }
+}

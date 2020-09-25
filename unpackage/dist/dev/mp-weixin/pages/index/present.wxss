@@ -12,6 +12,8 @@
 .topimg .top{
 	height: calc(40vh);
 	padding-top: 5%;
+	-webkit-animation: image 5s infinite linear;
+	        animation: image 5s infinite linear;
 }
 .topimg .top image{
 	width: 220rpx;height: 380rpx;

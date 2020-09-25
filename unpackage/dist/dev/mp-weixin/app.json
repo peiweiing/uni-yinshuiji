@@ -1,17 +1,20 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/index/present",
-    "pages/index/recharge",
-    "pages/index/report",
-    "pages/index/advertising"
-  ],
-  "subPackages": [],
-  "window": {
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  },
-  "usingComponents": {}
+    "pages": [
+        "pages/index/index",
+        "pages/step/step",
+        "pages/index/present",
+        "pages/index/recharge",
+        "pages/index/report",
+        "pages/index/advertising"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "共享饮水机",
+        "navigationBarBackgroundColor": "#198AE3",
+        "backgroundColor": "#FFF"
+    },
+    "permission": {},
+    "usingComponents": {},
+    "sitemapLocation": "sitemap2.json"
 }

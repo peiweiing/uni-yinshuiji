@@ -13,18 +13,8 @@
 </script>
 
 <style>
+	@import url('./components/animate_custom/animate_custom.css');
 	/*每个页面公共css */
-	
-		/* html{font-size:26.67vw;} */
-		body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;}
-		body{font-size:0.1rem;background:#fff;}
-		a{color:#172c45;text-decoration:none;}
-		a:hover{color:#cd0200;text-decoration:underline;}
-		ul,ol,li{list-style:none;}
-		img{border:0;vertical-align:middle;}
-		table{border-collapse:collapse;border-spacing:0;}
-		.min-height{min-height:calc(100vh)}.min-width{min-width: calc(100vw);}
-		
 	
 		/* 定位 */
 		.pon{position:static!important;}
@@ -171,4 +161,8 @@
 		.FY-fe{display:flex!important;align-items:flex-end!important;}
 		.FY-fs{display:flex!important;align-items:flex-start!important;}
 	
+	.FY-c{display:flex!important;align-items:center!important;}
+	.FY-b{display:flex!important;align-items:baseline!important;}/*以首行基线对齐*/
+	.FY-fe{display:flex!important;align-items:flex-end!important;}
+	.FY-fs{display:flex!important;align-items:flex-start!important;}
 </style>
